@@ -1,0 +1,395 @@
+1. What is class variable?
+
+	A - class variables are static variables within a class but outside any method.
+	B - class variables are variables defined inside methods, constructors or blocks.
+	C - class variables are variables within a class but outside any method.
+	D - None of the above.
+Answer:A
+
+2. What is the default value of Object variable?
+
+	A - undefined
+	B - 0
+	C - null
+	D - not defined
+Answer : C
+
+3. Which concept of Java is a way of converting real world objects in terms of class?
+ 	A - Polymorphism
+	B - Encapsulation
+	C - Abstraction
+	D - Inheritance
+Answer : C
+
+4. Method Overriding is an example of
+
+	A - Static Binding.
+	B - Dynamic Binding.
+	C - Both of the above.
+	D - None of the above
+Answer:B
+
+5. Which of the following is true about protected access modifier?
+
+	A - Variables, methods and constructors which are declared protected can be accessed by any class.
+	B - Variables, methods and constructors which are declared protected can be accessed by any class lying in same package.
+	C - Variables, methods and constructors which are declared protected in the superclass can be accessed only by its child class.
+	D - None of the above.
+Answer:B
+6. A class member declared protected becomes member of subclass of which type?
+
+	A - public member 
+	B - private member 
+	C - protected member 
+	D - static member 
+Answer: B
+
+7. Multiple inheritance in java must be acheived by using
+	A - super
+	B - extends
+	C - interface
+	D - None of the above
+Answer : C
+
+8. What concepts come under Polymorphism in java?
+
+	A - Method overloading
+	B - Constructor overloading
+	C - Method overriding
+	D - All the above
+Answer: D
+
+9. Which feature comes under compile time polymorphism?
+
+	A - Method overloading
+ 	B - Constructor overloading
+	C - Method overriding
+	D - Both A and B
+Answer: D
+
+10. If data members are private, what can we do to access them from the class object?
+	A - Create public member functions to access those data members
+	B - Create private member functions to access those data members
+	C - Create protected member functions to access those data members
+	D - Private data members can never be accessed from outside the class
+Answer: A
+
+11. The class at the top of exception class hierarchy is......
+	A - ArithmeticException
+	B - Throwable
+	C - Object
+	D - Exception
+Answer : B
+
+12.Exception generated in try block is caught in ...... block
+	A - catch
+	B - throw
+	C - throws
+	D - finally
+Answer : A
+
+13.Which exception is thrown when divide by zero statement executes? 
+	A - NumberFormatException
+	B - ArithmeticException
+	C - NullPointerException
+	D - None of these
+Answer : B
+
+14. Which keyword is used to explicitly throw an exception?
+	A - try
+	B - throwing
+	C - catch
+	D - throw
+Answer : D
+
+15.Which of the following declares an abstract method in an abstract medthos in an abstract java class?
+	A - public abstract method();
+	B - public abstract void method();
+	C - public void abstract Method();
+	D - public void method() {}
+Answer : B
+
+16.Which of the following is correct interface?
+	A - interface A { void print() { } }
+	B - abstract interface A { print(); }
+	C - abstract interface A { abstract void print(); { }}
+	D - interface A { void print(); }
+Answer : D
+
+17. How to format date from one form to another?
+	A - SimpleDateFormat
+	B - DateFormat
+	C - SimpleFormat
+	D - DateConverter
+Answer : A
+
+18. Number of primitive data types in Java are?
+	A - 6
+	B - 8
+	C - 7
+	D - 4
+Answer : B
+
+19. Arrays in java are...
+	A - Object references
+	B - Objects
+	C - Primitive data type
+	D - None
+Answer : B
+
+20. Identify the corrected definition of a package.
+	A - A package is  a collection of editing tools
+	B - A package is  a collection of classes
+	C - A package is  a collection of classes and interfaces
+	D - A package is  a collection of interfaces
+Answer : C
+
+21.Identify the keyword among the following that makes a variable belong to a class,rather than being defined for each instance of the class.
+	A - final
+	B - static
+	C - volatile
+	D - abstract
+Answer : B
+
+22. In which of the following is toString() method defined?
+	A - java.lang.object
+	B - java.lang.String
+	C - java.lang.util
+	D - None
+Answer :A
+
+23.  
+Identify the return type of a method that does not return any value.
+	A - int
+	B - double
+	C - void
+	D - None
+Answer : C
+
+24. Output of Math.floor(3.6)?
+	A - 3.0
+	B - 3
+	C - 4
+	D - 4.0
+Answer : A
+
+25. 
+Identify the modifier which cannot be used for constructor.
+	A - public
+	B - protected
+	C - private
+	D - static
+Answer : D
+
+26.  
+Where is System class defined?
+	A - java.lang.package
+	B - java.util.package
+	C - java.io.package
+	D - None
+Answer : A
+
+27. Identify the incorrect Java feature.
+	A- object oriented
+	B - use of pointers
+	C - Dynamic
+	D - Simple
+Answer : B
+
+28. Which of the following statements are true about finalize() method?
+	A - It can be called Zero or one times
+	B - It can be called zero or more times
+	C - It can be called Exactly once
+	D - It can be called One or more times
+Answer : A
+
+29.Which statement is true about Java?
+	A - Java is a sequence-dependent programming language
+	B - Java is a code dependent programming language
+	C - Java is a platform-dependent programming language
+	D - Java is a platform-independent programming language
+Answer : D
+
+30.Which of these cannot be used for a variable name in Java?
+	A - identifier & keyword
+	B - identifier
+	C - keyword
+	D - none of the mentioned
+Answer : C
+
+31. What is the extension of java code files?
+	A - .js
+	B - .txt
+	C - .class
+	D - .java
+Answer : D
+
+32. Which of the following is not an OOPS concept in Java?
+	A - Polymorphism
+	B - Inheritance
+	C - Compilation
+	D - Encapsulation
+Answer : C
+
+33. What is not the use of “this” keyword in Java?
+	A - Referring to the instance variable when a local variable has the same name
+	B - Passing itself to the method of the same class
+	C - Passing itself to another method
+	D - Calling another constructor in constructor chaining
+Answer : B
+
+34. Which of the following is a type of polymorphism in Java Programming?
+	A - Multiple polymorphism
+	B - Compile time polymorphism
+	C - Multilevel polymorphism
+	D - Execution time polymorphism
+Answer : B
+
+35.  Which of these keywords is used to define interfaces in Java?
+	A - intf
+	B - Intf
+	C - interface
+	D - Interface
+Answer : C
+
+36.What will be the output of the following Java code?
+
+    class Output 
+    {
+         public static void main(String args[]) 
+         {
+             double x = 3.14;  
+             int y = (int) Math.ceil(x);
+             System.out.print(y);
+         }
+    }
+
+	A - 3
+	B - 0
+	C - 4
+	D - 3.0
+Answer : C
+
+37. What will be the output of the following Java code snippet?
+
+    import java.util.*;
+    class Arraylists 
+    {
+        public static void main(String args[]) 
+        {
+            ArrayLists obj = new ArrayLists();
+            obj.add("A");
+            obj.add("B");
+            obj.add("C");
+            obj.add(1, "D");
+            System.out.println(obj);
+        }
+    }
+	A - [A, D, C]
+	B - [A, B, C]
+	C - [A, B, C, D]
+	D - [A, D, B, C]
+Answer : D
+
+38. Which of these keywords are used for the block to be examined for exceptions?
+	A - check
+	B - throw
+	C - catch
+	D - try
+Answer : D
+
+39.  Which one of the following is not an access modifier?
+	A - Protected
+	B - Void
+	C - Public
+	D - Private
+Answer : B
+
+40. What is the numerical range of a char data type in Java?
+	A - 0 to 256
+	B - -128 to 127
+	C - 0 to 65535
+	D - 0 to 32767
+Answer : C
+
+41. Find the output of the following code.
+
+	int Integer = 24;
+	char String  = ‘I’;
+	System.out.print(Integer);
+	System.out.print(String);
+
+	A - compile error
+	B - Throws Exception
+	C - I
+	D - 24 I
+Answer : D
+
+42. Select the valid statement.
+	A - char[] ch=new char(5)
+	B - char[] ch=new char[5]
+	C - char[] ch=new char()
+	D - char[] ch=new char[]
+Answer : B
+
+43. What is the use of final keyword in Java?
+	A - When a class is made final, a sublcass of it can not be created.
+	B - When a method is final, it can not be overridden.
+	C - When a variable is final, it can be assigned value only once.
+	D - All of the above
+Answer : D
+
+44. Select ffrom among the following character escape code which is not available in java
+	A - \t
+	B - \r
+	C - \a
+	D - \\
+Answer : C
+
+45. The concept of multiple inheritance is implemented in java by
+	I. Extending two or more classes
+	II. Extending one class and implementing one or more interfaces
+	III. Implementing two or more interfaces
+	A - Only (II)
+	B - (I) and (II)
+	C - (II) and (III)
+	D - Only (I)
+Answer : C
+
+46. Which environment variable is used to set the java path?
+	A - MAVEN_Path
+	B - JavaPATH
+	C - JAVA
+	D - JAVA_HOME
+Answer :D
+
+47. Which of the following declarations does not compile?
+	A - double num1, int num2 = 0;
+	B - int num1, num2;
+	C - int num1, num2 = 0;
+	D - int num1 = 0, num2 = 0;
+Answer : A
+
+48. Which is correct about an instance variable of type String?
+	A - It defaults to an empty string.
+	B - It defaults to null.
+	C - It does not have a default value.
+	D - It will not compile without initializing on the declaration line
+Answer : B
+
+49. Which of the following does not compile?
+	A - int num = 999;
+	B - int num = 9_9_9;
+	C - int num = _9_99;
+	D - None of the above; they all compile.
+Answer : C
+
+50. Which of the following is true about primitives?
+	A - You can call methods on a primitive.
+	B - You can convert a primitive to a wrapper class object simply by assigning it.
+	C - You can convert a wrapper class object to a primitive by calling valueOf().
+	D - You can store a primitive directly into an ArrayList.
+Answer : B
+
+
+ 

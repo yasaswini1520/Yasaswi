@@ -1,0 +1,383 @@
+1.Which type of Programming does Python support?
+A object-oriented programming
+B structured programming
+C functional programming
+D all of the mentioned
+Answer : D
+
+2. Which of the following is the correct extension of the Python file?
+A .python
+B .pl
+C .py
+D .p
+Answer : C
+
+3. Is Python code compiled or interpreted?
+A Python code is both compiled and interpreted
+B Python code is neither compiled nor interpreted
+C Python code is only compiled
+D Python code is only interpreted
+Answer : B
+
+4.All keywords in Python are in _________
+A Capitalized
+B lower case
+C UPPER CASE
+D None of the mentioned
+Answer : D
+
+5.What will be the value of the following Python expression?
+	4 + 3 % 5
+A 7
+B 2
+C 4
+D 1
+Answer : A
+
+6. Which of the following character is used to give single-line comments in Python?
+A //
+B #
+C !
+D /*
+Answer : B
+
+7.What is the order of precedence in python?
+A Exponential, Parentheses, Multiplication, Division, Addition, Subtraction
+B Exponential, Parentheses, Division, Multiplication, Addition, Subtraction
+C Parentheses, Exponential, Multiplication, Division, Subtraction, Addition
+D Parentheses, Exponential, Multiplication, Division, Addition, Subtraction
+Answer : D
+
+8. Which of the following functions is a built-in function in python?
+A factorial()
+B print()
+C seed()
+D sqrt()
+Answer : B
+
+9. What will be the output of the following Python code?
+
+	l=[1, 0, 2, 0, 'hello', '', []]
+	list(filter(bool, l))
+A [1, 0, 2, ‘hello’, ”, []]
+B Error
+C [1, 2, ‘hello’]
+D [1, 0, 2, 0, ‘hello’, ”, []]
+Answer : C
+
+10. What will be the output of the following Python function?
+	len(["hello",2, 4, 6])
+A Error
+B 6
+C 4
+D 3
+Answer : C
+
+11. What will be the output of the following Python code?
+	x = 'abcd'
+	for i in x:
+    		print(i.upper())
+A a B C D
+B a b c d
+C error
+D A B C D
+Answer : D
+
+12. What arithmetic operators cannot be used with strings in Python?
+A *
+B –
+C +
+D All of the mentioned
+Answer : B
+
+13. Which of the following statements is used to create an empty set in Python?
+A ( )
+B [ ]
+C { }
+D set()
+Answer : D
+
+14. To add a new element to a list we use which Python command?
+A list1.addEnd(5)
+B list1.addLast(5)
+C list1.append(5)
+D list1.add(5)
+Answer : C
+
+15.list, tuple, and range are the ___ of Data Types.
+A Sequence Types
+B Binary Types
+C Boolean Types
+D None of the mentioned above
+Answer : A
+
+16.Float type of data type is represented by the float class.
+A True
+B False
+Answer : A
+
+17.Binary data type is a fixed-width string of length bytes?
+A True
+B False
+Answer : A
+
+18. Amongst which of the following is / are the logical operators in Python?
+A and
+B or
+C not
+D All of the mentioned above
+Answer : D
+
+19. What is the name of the operator ** in Python?
+A Exponentiation
+B Modulus
+C Floor division
+D None of the mentioned above
+Answer : A
+
+20. Amongst which of the following is / are the method of list?
+A append()
+B extend()
+C insert()
+D All of the mentioned above
+Answer : D
+
+21.  The list.pop ([i]) removes the item at the given position in the list?
+A True
+B False
+Answer : A
+
+22.The list.index(x[, start[, end]]) is used to ___.
+A Return zero-based index in the list
+B Raises a ValueError if there is no such item
+C Both A and B
+D None of the mentioned above
+Answer : C
+
+23. Python Dictionary is used to store the data in a ___ format.
+A Key value pair
+B Group value pair
+C Select value pair
+D None of the mentioned above
+Answer : A
+
+24.The following is used to define a ___.
+
+d = {
+	<key>: <value>,
+	<key>: <value>,
+	.
+	.
+	.
+	<key>: <value>
+    }
+A Group
+B List
+C Dictionary
+D All of the mentioned above
+Answer : C
+
+25. Conditional statements are also known as ___ statements.
+A Decision-making
+B Array
+C List
+D None of the mentioned above
+Answer : A
+
+26. Amongst which of the following if syntax is true?
+
+A  if condition:
+    #Will executes this block if the condition is true
+B  if condition
+   {
+      #Will executes this block if the condition is true
+   }
+C  if(condition)
+    #Will executes this block if the condition is true
+D  None of the mentioned above
+Answer : A
+
+27. Amongst which of the following is / are the conditional statement in Python code?
+A  if a<=100:
+B  if (a >= 10)
+C  if (a => 200)
+D  None of the mentioned above
+Answer : A
+
+28.Which of the following is not used as conditional statement in Python?
+A  switch
+B  if...else
+C  elif
+D  None of the mentioned above
+Answer : A
+
+29. An ___ statement has less number of conditional checks than two successive ifs.
+
+A  if else if
+B  if elif
+C  if-else
+D  None of the mentioned above
+Answer : C
+
+30. The ___ is a built-in function that returns a range object that consists series of integer numbers, which we can iterate using a for loop.
+A  range()
+B  set()
+C  dictionary{}
+D  None of the mentioned above
+Answer : A
+
+31. A function is a group of related statements which designed specifically to perform a ___.
+A  Write code
+B  Specific task
+C  Create executable file
+D  None of the mentioned above
+Answer : B
+
+32. Once we have defined a function, we can call it?
+A  True
+B  False
+Answer : A
+
+33. Amongst which of the following shows the types of function calls in Python?
+A  Call by value
+B  Call by reference
+C  Both A and B
+D  None of the mentioned above
+Answer : C
+
+34. What will be the output of the following Python code?
+
+	def show(id,name):
+    		print("Your id is :",id,"and your name is :",name)
+
+	show(12,"deepak")
+A  Your id is: 12 and your name is: deepak
+B  Your id is: 11 and your name is: Deepak
+C  Your id is: 13 and your name is: Deepak
+D  None of the mentioned above
+Answer : A
+
+35. Can we pass List as an argument in Python function?
+A  True
+B  False
+Answer : A
+
+36. Amongst which of the following is / are the key functions used for file handling in Python?
+A  open() and close()
+B  read() and write()
+C  append()
+D  All of the mentioned above
+Answer : D
+
+37.  Amongst which of the following is / are needed to open an existing file?
+A  filename
+B  mode
+C  Both A and B
+D  None of the above
+Answer : A
+
+38. The function file_object.close() is used to ___.
+A  To open the existing file
+B  To append in an opened file
+C  To close an opened file
+D  None of the mentioned above
+Answer : C
+
+39.  The write() method takes a string as an argument and ___.
+A  writes it to the text file
+B  read from the text file
+C  append in a text file
+D  None of the mentioned above
+Answer : A
+
+40. The seek() method is used to ___.
+A  Saves the file in secondary storage
+B  Position the file object at a particular position in a file
+C  Deletes the file form secondary storage
+D  None of the mentioned above
+Answer : B
+
+41. Python allows string slicing. What is the output of below code: s='cppbuzz chicago' print(s[3:5])
+A  buzzc
+B  pbuzz
+C  bu
+D  None of these
+Answer : C
+
+42. Which statement is correct....??
+A  List is mutable & Tuple is immutable
+B  List is immutable & Tuple is mutable
+C  Both are Mutable.
+D  Both are Immutable
+Answer : A
+
+43. Which one of the following is not a python's predefined data type?
+A  List
+B  Dictionary
+C  Tuple
+D  Class
+Answer : D
+
+44. 22. Which of the following is a Python tuple?
+A  [3]
+B  {1, 2, 3}
+C  (1, 2, 3, 4)
+D  None of the Above
+Answer : C
+
+45. 24. Which of the following refers to mathematical function?
+A  sqrt
+B  add
+C  rhombus
+D  None of the above
+Answer : A
+
+46. 25. What will be the output of the following Python code?											
+	def cube(x):
+    		return x * x * x
+	x = cube(5)
+	print x
+											
+A  26
+B  125
+C  525
+D  None of above
+Answer : B
+
+47.Which one is not a feature of python language?
+A  Interpreted language
+B  Portable
+C  High level language
+D  Case Insensitive
+Answer : D
+
+48.Suppose B is a subclass of A, to invoke the __init__ method in A from B, what is the line of code you should write?
+A  A.__init__(self)
+B  B.__init__(self)
+C  A.__init__(B)
+D  B.__init__(A) 
+Answer : A
+
+49.hat will be the output of the following Python code?
+
+	class Test:
+    		def __init__(self):
+        		self.x = 0
+	class Derived_Test(Test):
+    		def __init__(self):
+        		Test.__init__(self)
+        		self.y = 1
+	def main():
+    		b = Derived_Test()
+    		print(b.x,b.y)
+	main()
+A  Error because class B inherits A but variable x isn’t inherited
+B  0 0
+C  0 1
+D   Error, the syntax of the invoking method is wrong
+Answer : C
+
+50. A class in which one or more methods are only implemented to raise an exception is called an abstract class.
+A  True
+B  False
+Answer : A
